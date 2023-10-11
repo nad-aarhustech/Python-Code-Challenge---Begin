@@ -1,0 +1,7 @@
+def remove_duplicates(input_list):
+    return list(set(input_list))
+
+input_list = [1, 2, 2, 3, 4, 4, 5]
+
+resultat = remove_duplicates(input_list)
+print(resultat)
